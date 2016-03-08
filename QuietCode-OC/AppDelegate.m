@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "QuietViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    QuietViewController *quietVC = [[QuietViewController alloc] init];
+   
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:quietVC];
+    
+    self.window.rootViewController = navigationController;
     return YES;
 }
 

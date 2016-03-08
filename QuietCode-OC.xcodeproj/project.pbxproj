@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		B91655B91C8ECDF80043A13A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B91655B81C8ECDF80043A13A /* main.m */; };
 		B91655BC1C8ECDF80043A13A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B91655BB1C8ECDF80043A13A /* AppDelegate.m */; };
-		B91655BF1C8ECDF80043A13A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B91655BE1C8ECDF80043A13A /* ViewController.m */; };
+		B91655BF1C8ECDF80043A13A /* QuietViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B91655BE1C8ECDF80043A13A /* QuietViewController.m */; };
 		B91655C21C8ECDF80043A13A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B91655C01C8ECDF80043A13A /* Main.storyboard */; };
 		B91655C41C8ECDF80043A13A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B91655C31C8ECDF80043A13A /* Assets.xcassets */; };
 		B91655C71C8ECDF80043A13A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B91655C51C8ECDF80043A13A /* LaunchScreen.storyboard */; };
@@ -39,8 +39,8 @@
 		B91655B81C8ECDF80043A13A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B91655BA1C8ECDF80043A13A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B91655BB1C8ECDF80043A13A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B91655BD1C8ECDF80043A13A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B91655BE1C8ECDF80043A13A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B91655BD1C8ECDF80043A13A /* QuietViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuietViewController.h; sourceTree = "<group>"; };
+		B91655BE1C8ECDF80043A13A /* QuietViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuietViewController.m; sourceTree = "<group>"; };
 		B91655C11C8ECDF80043A13A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B91655C31C8ECDF80043A13A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B91655C61C8ECDF80043A13A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,8 +103,8 @@
 			children = (
 				B91655BA1C8ECDF80043A13A /* AppDelegate.h */,
 				B91655BB1C8ECDF80043A13A /* AppDelegate.m */,
-				B91655BD1C8ECDF80043A13A /* ViewController.h */,
-				B91655BE1C8ECDF80043A13A /* ViewController.m */,
+				B91655BD1C8ECDF80043A13A /* QuietViewController.h */,
+				B91655BE1C8ECDF80043A13A /* QuietViewController.m */,
 				B91655C01C8ECDF80043A13A /* Main.storyboard */,
 				B91655C31C8ECDF80043A13A /* Assets.xcassets */,
 				B91655C51C8ECDF80043A13A /* LaunchScreen.storyboard */,
@@ -270,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B91655BF1C8ECDF80043A13A /* ViewController.m in Sources */,
+				B91655BF1C8ECDF80043A13A /* QuietViewController.m in Sources */,
 				B91655BC1C8ECDF80043A13A /* AppDelegate.m in Sources */,
 				B91655B91C8ECDF80043A13A /* main.m in Sources */,
 			);
@@ -498,6 +498,7 @@
 				B91655E31C8ECDF80043A13A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B91655E41C8ECDF80043A13A /* Build configuration list for PBXNativeTarget "QuietCode-OCTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +507,7 @@
 				B91655E61C8ECDF80043A13A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B91655E71C8ECDF80043A13A /* Build configuration list for PBXNativeTarget "QuietCode-OCUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +516,7 @@
 				B91655E91C8ECDF80043A13A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
